@@ -3,8 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <title>Michael Natenzon</title>
+    <link rel="stylesheet"type="text/css" href="{{url_for('static',filename='styles/base.css')}}">
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=EB+Garamond" />
+
 </head>
 <body>
+<ul class="tabs">
+<li class="tab" id="about-me"> <span class="tab-title">About Me</span></li>
+    <li class="tab" id="academic-accomplishments"> <span class="tab-title">Academic Accomplishment</span></li>
+    <li class="tab" id="athletic-accolades"> <span class="tab-title">Athletic Accolades</span></li>
+    <li class="tab" id="my-book"> <span class="tab-title">My Book (In Progress)</span></li>
+    <li class="tab" id="Art"> <span class="tab-title">Art</span></li>
+    <li class="tab" id="future-plans"> <span class="tab-title">Future Plans</span></li>
+</ul>
+
+
 {% block content %}
 {% endblock %}
 </body>
