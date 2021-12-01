@@ -1,4 +1,13 @@
-
-h1 {
-    color: blue;
+.portrait {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    width: 40%;
+    height: 1000px;
+    background-image: url('/static/assets/image.jpg');
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    box-shadow: 0 0 50px 50px white inset;
+    clip-path: inset(0 -1 0 0);
 }
