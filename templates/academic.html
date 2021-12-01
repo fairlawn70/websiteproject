@@ -1,0 +1,14 @@
+home.html<!doctype html>
+
+{% extends 'base.html'%}
+{% block title %}
+     Academic
+{% endblock %}
+{% block content %}
+<link rel="stylesheet"type="text/css" href="{{url_for('static',filename='styles/academic.css')}}">
+<div class="home">
+
+       <h1 class="test">Welcome to my website!</h1>
+    </div>
+
+{% endblock %}
