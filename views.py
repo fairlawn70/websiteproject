@@ -13,6 +13,10 @@ def landing():
     return redirect(url_for('views.home'))
 
 
+@views.route("/aboutme")
+def aboutme():
+    return render_template("aboutme.html")
+
 
 @views.route("/academic")
 def academic():

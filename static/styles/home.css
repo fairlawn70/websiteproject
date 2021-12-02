@@ -5,9 +5,54 @@
     z-index: -1;
     width: 40%;
     height: 1000px;
-    background-image: url('/static/assets/image.jpg');
+    background-image: url('/static/assets/michael.png');
     background-size: 100% auto;
     background-repeat: no-repeat;
-    box-shadow: 0 0 50px 50px white inset;
-    clip-path: inset(0 -1 0 0);
 }
+h2 {
+    margin-top: 80px;
+    text-align: center;
+    font-size: 32px;
+    font-style: italic;
+}
+.container {
+    height: 700px;
+}
+.float-one {
+    width: 68%;
+    float: left;
+    height: 100%;
+}
+.float-two {
+    width: 31%;
+    float: right;
+    height: 100%;
+}
+.transparent {
+
+    width: 100%;
+    height: auto;
+}
+h1 {
+    text-align: center;
+    font-size: 120px;
+    margin-top: -5px;
+    margin-bottom: -10px;
+}
+h3 {
+    margin: 20px;
+
+    text-align: center;
+    font-size: 45px;
+}
+.rutgers {
+    margin: auto;
+    display: block;
+    width: 40%;
+    height: auto;
+}
+.flag {
+    margin: auto;
+    display: block;
+}
+

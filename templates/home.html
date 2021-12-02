@@ -7,7 +7,20 @@
 {% block content %}
 <link rel="stylesheet"type="text/css" href="{{url_for('static',filename='styles/home.css')}}">
 <div class="home">
-    <div class="portrait"></div>
+    <h2 class="quote"> "It is during our darkest moments that we must focus to see the light" --Aristotle</h2>
+    <div class="container">
+        <div class="float-one">
+            <h1>Michael Natenzon</h1>
+            <h3>Computer Science Major</h3>
+            <h3>Rutgers University - New Brunswick</h3>
+            <img class="rutgers" src="{{ url_for('static', filename='/assets/ruggers.jpg')}}">
+            <img class="flag" src="{{ url_for('static', filename='/assets/flag.png')}}">
+        </div>
+        <div class="float-two">
+            <img class="transparent" src="{{ url_for('static', filename='/assets/michael_transparent.png')}}">
+        </div>
+    </div>
+
 </div>
 
 {% endblock %}

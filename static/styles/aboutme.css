@@ -1,0 +1,11 @@
+.portrait {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    width: 40%;
+    height: 1000px;
+    background-image: url('/static/assets/michael.png');
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+}
