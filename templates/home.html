@@ -7,18 +7,22 @@
 {% block content %}
 <link rel="stylesheet"type="text/css" href="{{url_for('static',filename='styles/home.css')}}">
 <div class="home">
-    <h2 class="quote"> "It is during our darkest moments that we must focus to see the light" --Aristotle</h2>
+<!--    <h2 class="quote"> "It is during our darkest moments that we must focus to see the light" &#45;&#45;Aristotle</h2>-->
+    <img class="bg" src="{{ url_for('static', filename='/assets/nyc.png')}}">
+    <img class="transparent" src="{{ url_for('static', filename='/assets/michael copy.png')}}">
     <div class="container">
-        <div class="float-one">
-            <h1>Michael Natenzon</h1>
-            <h3>Computer Science Major</h3>
-            <h3>Rutgers University - New Brunswick</h3>
-            <img class="rutgers" src="{{ url_for('static', filename='/assets/ruggers.jpg')}}">
-            <img class="flag" src="{{ url_for('static', filename='/assets/flag.png')}}">
-        </div>
+
         <div class="float-two">
-            <img class="transparent" src="{{ url_for('static', filename='/assets/michael_transparent.png')}}">
+            <img class="transparent" src="{{ url_for('static', filename='/assets/michael copy.png')}}">
         </div>
+        <div class="float-one">
+
+<!--            <h3>Rutgers University - New Brunswick</h3>-->
+            <h1>Michael Natenzon</h1>
+            <h3>Computer Science</h3>
+            <img class="rutgers" src="{{ url_for('static', filename='/assets/rutgers.png')}}">
+        </div>
+
     </div>
 
 </div>
