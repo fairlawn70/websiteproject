@@ -74,6 +74,7 @@ img {
 }
 
 .gray {
+    padding-top: 10px;
     width: 100%;
     height: 400px;
     background-color: #d0d3d8;
@@ -88,13 +89,19 @@ img {
 }
 
 .socialcircle {
-    margin-top: 80px;
+    margin-top: 50px;
     margin-bottom: 80px;
     height: 100px;
     width: 100px;
     background-color: black;
     flex-wrap: nowrap;
     border-radius: 50%;
-
-
+}
+.contact-title {
+    margin-top: 20px;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    color: #0d2737;
+    font-size: 60px;
 }
