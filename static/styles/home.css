@@ -18,7 +18,7 @@ img {
     height: 400px;
     width: 400px;
     border-radius: 50%;
-    top: 40%;
+    top: 45%;
     transform: translateY(-50%);
     right: 15%;
     justify-content: center;
@@ -51,11 +51,11 @@ img {
     font-size: 60px;
 }
 .aboutme h3 {
-    font-size: 30px;
+    font-size: 40px;
     font-weight: 500;
 }
 .aboutme p {
-    width: 1000px;
+    width: 900px;
     display: block;
     margin: auto;
     font-size: 20px;
@@ -64,7 +64,7 @@ img {
 .aboutme hr {
     display: block;
     margin: auto;
-    margin-top: 20px;
+    margin-top: 40px;
     margin-bottom: 50px;
     height: 1px;
     border: 0;
@@ -93,9 +93,10 @@ img {
     margin-bottom: 80px;
     height: 100px;
     width: 100px;
-    background-color: black;
+    background-color: #0d2737;
     flex-wrap: nowrap;
     border-radius: 50%;
+
 }
 .contact-title {
     margin-top: 20px;
@@ -105,3 +106,4 @@ img {
     color: #0d2737;
     font-size: 60px;
 }
+

@@ -6,9 +6,17 @@
 {% endblock %}
 {% block content %}
 <link rel="stylesheet"type="text/css" href="{{url_for('static',filename='styles/academic.css')}}">
-<div class="home">
-
-       <h1 class="test">Welcome to my website!</h1>
+<div class="academic">
+    <div class="top">
+        <div class="child-left">
+            <h2>
+                Academic Publications
+            </h2>
+        </div>
+        <div class="child-right">
+            <img class="img-1" src="{{ url_for('static', filename='assets/graduation.jpg') }}">
+        </div>
     </div>
+</div>
 
 {% endblock %}
