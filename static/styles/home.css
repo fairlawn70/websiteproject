@@ -107,3 +107,23 @@ img {
     font-size: 60px;
 }
 
+.download-button a:link {
+    text-decoration: none;
+    background-color: #0d2737;
+    padding: 10px 20px 10px 20px;
+    color: white;
+}
+.download-button a:visited {
+    text-decoration: none;
+    color: white;
+}.download-button a:hover {
+    text-decoration: none;
+    color: white;
+}
+.download-button a:active {
+    text-decoration: none;
+    color: white;
+}
+
+
+

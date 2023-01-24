@@ -1,4 +1,4 @@
-from flask import Blueprint, render_template, url_for, redirect, request
+from flask import Blueprint, render_template, url_for, redirect, request, send_file
 
 views = Blueprint(__name__, "views")
 
@@ -41,3 +41,8 @@ def mybook():
 @views.route("/contact")
 def contact():
     return render_template("contact.html")
+
+@views.route("/download")
+def download_file():
+    p = "Michael_Natenzon_Resume.pdf"
+    return send_file(p, as_attachment=True)

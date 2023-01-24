@@ -14,17 +14,19 @@
                <h1>Natenzon</h1>
           </div>
           <div class="portrait-container">
-               <img class="portrait" src="{{ url_for('static', filename='assets/squarecrop.png') }}">
+               <img class="portrait" src="{{ url_for('static', filename='assets/better_portrait.png') }}">
           </div>
 
      </div>
      <div class="aboutme">
           <h2> About Me
           </h2>
-          <p>I am currently a Junior at Rutgers University-NB and plan on obtaining a Bachelor's degree in Computer Science. In high school I graduated with an Associates degree, as I was apart of the “Early Bergen Community College Program.” While I play for the Rutgers University Ice Hockey team, I am also an active member of the Rutgers Chess Club.</p>
+          <p>I am currently a Junior at Rutgers University-NB and plan on obtaining a Bachelor's degree in Computer Science. In high school I graduated with an Associates degree, as I was apart of the “Early Bergen Community College Program.” While I play for the Rutgers University D2 Ice Hockey team, I am also an active member of the Rutgers Chess Club.</p>
           <hr/>
           <h3>
-               NYC &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; •&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; MIA
+               <div class="download-button" >
+                    <a href="{{url_for('views.download_file')}}"> Download Resume</a>
+               </div>
           </h3>
      </div>
      <div class="gray">
@@ -36,8 +38,11 @@
                <div class="socialcircle" style="cursor:pointer;" onClick="window.open('https://www.linkedin.com/in/michael-natenzon-37114b1b7/','_newtab');">
                     <img class="icon" src="{{ url_for('static', filename='assets/linkedin.png') }}">
                </div>
-               <div class="socialcircle" style="cursor:pointer;" onclick="location.href='mnatenzon2002@gmail.com';">
+               <div class="socialcircle" style="cursor:pointer;" onclick="location.href='mailto:mnatenzon2002@gmail.com';">
                     <img class="icon" src="{{ url_for('static', filename='assets/gmail.png') }}">
+               </div>
+               <div class="socialcircle" style="cursor:pointer;" onclick="location.href='https://github.com/fairlawn70';">
+                    <img class="icon" src="{{ url_for('static', filename='assets/github.png') }}">
                </div>
           </div>
 
