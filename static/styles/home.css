@@ -7,6 +7,8 @@ img {
 }
 
 .name {
+    font-family: "San Francisco";
+    src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-regular-webfont.woff");
     position: absolute;
     left: 0;
     top: 12%;
@@ -52,6 +54,7 @@ img {
 }
 .aboutme h3 {
     font-size: 40px;
+    font-weight: 500;
 
 }
 .aboutme p {
