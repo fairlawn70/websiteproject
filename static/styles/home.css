@@ -19,7 +19,7 @@ img {
     aspect-ratio : 1 / 1;
     width: 30%;
     border-radius: 50%;
-    top: 18%;
+    top: 200px;
     right: 8%;
     justify-content: center;
     align-items: center;
@@ -126,14 +126,14 @@ img {
 }
 @media (max-width: 2000px) {
 .portrait-container {
-    top: 16%;
+    top: 150px;
 }
 
 }
 
 @media (max-width: 1600px) {
 .portrait-container {
-    top: 14%;
+    top: 120px;
 }
 
 }
@@ -142,7 +142,11 @@ img {
 @media (max-width: 1280px) {
 
 .portrait-container {
-    top: 12%;
+    top: 95px;
+}
+
+.aboutme p {
+    width: 80%;
 }
 
 }
@@ -150,9 +154,16 @@ img {
 @media (max-width: 775px) {
 
 .portrait-container {
-    top: 12%;
-    width: 26%;
+    top: 90px;
+    width: 200px;
 }
+
+img {
+    width: 775px;
+    height: auto;
+}
+
+
 
 }
 
