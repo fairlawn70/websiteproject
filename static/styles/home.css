@@ -35,7 +35,6 @@ img {
 .name h1 {
     font-family: "San Francisco";
     src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-regular-webfont.woff");
-    font-weight: 10;
     color: white;
     font-size: 150px;
     margin: 0 0 -35px 0;
